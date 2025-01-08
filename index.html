@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Larsen's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- external fonts, scripts, etc -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6bbc25d724.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="site-logo">
+        <input type="checkbox" id="site-logo-checkbox-hack" />
+        <label for="site-logo-checkbox-hack">Larsenwald</label>
+      </div>
+      <nav>
+        <a href="#hero">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>Hey I am Larsen</h1>
+        <p>a web developer</p>
+      </section>
+      <section id="Projects">
+        <h2>These are some of my projects</h2>
+        <div class="projects-grid">
+          <a
+            href="https://larsenwald.github.io/Technical-Documentation-Practice-Project/"
+            target="_blank"
+            class="project-card"
+          >
+            <img
+              src="images/technical_documentation_website.png"
+              alt="d&d technical documentation page"
+            />
+            <p>D&D Technical Documentation</p>
+          </a>
+          <a
+            href="https://larsenwald.github.io/Product-Landing-Page-Practice-Project/"
+            target="_blank"
+            class="project-card"
+          >
+            <img
+              src="images/fat_cats_inc_website.png"
+              alt="fat cats inc page"
+            />
+            <p>Fat Cats Inc. Product Landing Page</p>
+          </a>
+          <a
+            href="https://larsenwald.github.io/Tribute-Page-Practice-Project/"
+            target="_blank"
+            class="project-card"
+          >
+            <img
+              src="images/fat_cats_tribute_page.png"
+              alt="fat cats tribute page"
+            />
+            <p>Fat Cats Tribute Page</p>
+          </a>
+        </div>
+      </section>
+      <section id="Contact">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+        <div class="icon-container">
+          <a href="https://github.com/larsenwald" target="_blank"
+            ><i class="fa-brands fa-github"></i> Github</a
+          >
+          <a
+            ><i class="fa-solid fa-envelope"></i> Email me<br /><span
+              class="tooltip"
+              >email@email.com</span
+            ></a
+          >
+          <a
+            ><i class="fa-solid fa-mobile"></i> Call me<br />
+            <span class="tooltip">123-456-7890</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        **This is a practice project for freeCodeCamp. Don't take anything here
+        seriously.
+      </p>
+      <p>© Portfolio by Larsenwald</p>
+    </footer>
+  </body>
+</html>
