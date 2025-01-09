@@ -30,7 +30,7 @@ header {
   justify-content: space-between;
   align-items: center;
   /* x-offset y-offset blur-radius spread-radius */
-  box-shadow: 0 0 5px 1px;
+  box-shadow: 0 0 5px 1px black;
 }
 #site-logo {
   height: 100%;
